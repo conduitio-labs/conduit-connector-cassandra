@@ -1,4 +1,4 @@
-module github.com/conduitio/conduit-connector-connectorname
+module github.com/conduitio-labs/conduit-connector-cassandra
 
 go 1.19
 
@@ -10,8 +10,11 @@ require (
 	github.com/Masterminds/sprig/v3 v3.2.3 // indirect
 	github.com/conduitio/conduit-connector-protocol v0.4.0 // indirect
 	github.com/fatih/color v1.7.0 // indirect
+	github.com/gocql/gocql v1.3.1 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/golang/snappy v0.0.3 // indirect
 	github.com/google/uuid v1.1.2 // indirect
+	github.com/hailocab/go-hostpool v0.0.0-20160125115350-e80d13ce29ed // indirect
 	github.com/hashicorp/go-hclog v0.14.1 // indirect
 	github.com/hashicorp/go-plugin v1.4.3 // indirect
 	github.com/hashicorp/yamux v0.0.0-20180604194846-3520598351bb // indirect
@@ -42,5 +45,6 @@ require (
 	google.golang.org/genproto v0.0.0-20211104193956-4c6863e31247 // indirect
 	google.golang.org/grpc v1.50.1 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
+	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/tomb.v2 v2.0.0-20161208151619-d5d1b5820637 // indirect
 )
